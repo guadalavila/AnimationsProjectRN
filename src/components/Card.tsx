@@ -21,7 +21,6 @@ const Card = () => {
       <Button
         title="Press"
         onPress={() => {
-          console.log(offset.value);
           offset.value = withSpring(0);
         }}
       />
